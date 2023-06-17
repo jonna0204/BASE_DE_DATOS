@@ -98,9 +98,9 @@ DELETE FROM cliente WHERE cliente_rut = '189868886';
 
 --Inserte 1 venta para cada cliente.
 INSERT INTO venta (fecha, monto, cliente_rut, vehiculo_idvehiculo)
-VALUES ('2023-06-15', 15000.00, '187657447', 1);
+VALUES ('15-06-2023', 15000, '187657447', 1);
 INSERT INTO venta (fecha, monto, cliente_rut, vehiculo_idvehiculo)
-VALUES ('2023-06-15', 20000.00, '185673447', 2);
+VALUES ('20-05-2023', 20000, '185673447', 2);
 
 --Modifique el nombre del segundo cliente
 UPDATE cliente SET nombre = 'Sansa Stark' WHERE cliente_rut = '187657447';
