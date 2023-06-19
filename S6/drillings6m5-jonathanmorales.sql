@@ -63,9 +63,9 @@ VALUES ('189868886', 'Ned Stark', 'nedstark@got.com', 'winterfel 1234', '4324342
 
 --Inserte 2 arriendos para cada cliente.
 INSERT INTO arriendo(fecha, dias, valordia, garantia, herramienta_idherramienta, cliente_rut)
-VALUES ('2023-06-15', 5, 5000, '2500', 1, '187657447');
+VALUES ('15-06-2023', 5, 5000, '2500', 1, '187657447');
 INSERT INTO arriendo(fecha, dias, valordia, garantia, herramienta_idherramienta, cliente_rut)
-VALUES ('2022-10-01', 15, 20000, '15000', 2, '185673447');
+VALUES ('01-12-2022', 15, 20000, '15000', 2, '185673447');
 
 
 -- Listar todos los arriendos con las siguientes columnas: Folio, Fecha, Días, ValorDia, 
